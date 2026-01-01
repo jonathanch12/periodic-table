@@ -38,6 +38,18 @@
   .element-tile {
     border-radius: 6px;
   }
+
+  .element-number {
+    display: none;
+  }
+
+  .element-name {
+    display: none;
+  }
+
+  .element-symbol {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -45,6 +57,12 @@
     border-radius: 4px;
   }
 
+  .element-symbol {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
   .element-symbol {
     font-size: 18px;
   }
